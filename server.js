@@ -3,7 +3,7 @@ const socket = require("socket.io")
 const app = express()
 
 const server = app.listen(4000,()=>{
-    console.log("your app is up and running at port 4000");
+    console.log("your app is up and running on port 4000");
 });
 
 app.use(express.static('public'))
